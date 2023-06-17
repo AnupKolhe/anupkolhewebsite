@@ -1,11 +1,14 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
+import HeroImg2 from "../Components/HeroImg2";
 
 const Project = () => {
   return (
     <div>
       <Navbar />
-      Project
+      <HeroImg2/>
+      <Footer/>
     </div>
   );
 };

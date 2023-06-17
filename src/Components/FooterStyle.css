@@ -13,20 +13,46 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
-
 }
 
-.left{
-    height: 100%;
-    display: flex;
-    max-width: 100%;
-    flex-direction: column;
-    padding: 1rem;
+.left {
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  padding: 1rem;
 }
-.right{
-    height: 100%;
-    display: flex;
-    max-width: 100%;
-    flex-direction: column;
-    padding: 1rem;
+.right {
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  padding: 1rem;
+}
+.location {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.location p {
+  line-height: 30px;
+}
+.social {
+  margin-top: 1rem;
+}
+
+.h4 {
+  font-size: 1.2rem;
+  padding-bottom: 0.7rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width:640px) {
+  .footer-container{
+    grid-template-columns: 1fr;
+    
+  }     
 }
