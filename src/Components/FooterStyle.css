@@ -1,0 +1,32 @@
+p {
+  color: #fff;
+}
+.footer {
+  width: 100%;
+  padding: 6rem 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+  max-width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+
+}
+
+.left{
+    height: 100%;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+}
+.right{
+    height: 100%;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+}
