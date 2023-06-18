@@ -11,7 +11,7 @@
 .nav-menu {
   display: flex;
 }
-.header-bg{
+.header-bg {
   background-color: rgba(0, 0, 0, 0.8);
   transition: 0.5ms;
 }
@@ -24,8 +24,8 @@
   font-weight: 500;
 }
 
-.hamburger{
-    display: none;
+.hamburger {
+  display: none;
 }
 
 @media screen and (max-width: 1040px) {
@@ -43,8 +43,8 @@
     transition: 0.3s;
   }
 
-  .nav-menu.active{
-    left:0;
+  .nav-menu.active {
+    left: 0;
   }
   .nav-menu li {
     padding: 1rem 0;
@@ -54,7 +54,7 @@
     font-size: 2rem;
   }
 
-  .hamburger{
+  .hamburger {
     display: initial;
   }
 }
