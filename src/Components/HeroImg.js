@@ -1,6 +1,6 @@
 import "./HeroImg.css";
 import React from "react";
-import MuteImg from "../assets/self.jpg";
+import MuteImg from "../assets/john.jpg";
 import { Link } from "react-router-dom";
 
 const HeroImg = () => {
