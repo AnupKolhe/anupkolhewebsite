@@ -31,6 +31,13 @@
   font-size: 1.4rem;
   text-align: center;
 }
+.left {
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  padding: 1rem;
+}
 @media screen and (max-width:640px){
   .hero-img h1{
     font-size: 2rem;

@@ -1,6 +1,7 @@
 p {
   color: #fff;
 }
+
 .footer {
   width: 100%;
   padding: 6rem 0;
@@ -22,6 +23,7 @@ p {
   flex-direction: column;
   padding: 1rem;
 }
+
 .right {
   height: 100%;
   display: flex;
@@ -29,7 +31,16 @@ p {
   flex-direction: column;
   padding: 1rem;
 }
-.location {
+.copyright{
+  bottom: 10px;;
+  text-align: center;
+  padding: 15px 23px;
+  background: #111;
+}
+.copyright a:hover{
+  text-decoration: underline;
+}
+.location  {
   display: flex;
   margin-bottom: 0.8rem;
 }
@@ -37,6 +48,7 @@ p {
 .location p {
   line-height: 30px;
 }
+
 .social {
   margin-top: 1rem;
 }
@@ -50,9 +62,12 @@ p {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width:640px) {
-  .footer-container{
+@media screen and (max-width: 640px) {
+  .footer-container {
     grid-template-columns: 1fr;
-    
-  }     
+  }
+  .copyright{
+    font-size: 10px;
+    bottom: 10px;
+  }
 }
