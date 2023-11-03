@@ -15,7 +15,6 @@ p {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
 }
-
 .left {
   height: 100%;
   display: flex;

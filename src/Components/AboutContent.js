@@ -4,22 +4,30 @@ import self from "../assets/self-remove.png"
 
 
 const AboutContent = (url) => {
-    const downloadResume ='http://localhost:3000/pdf/Profile.pdf';
+    const downloadResume = "https://drive.google.com/file/d/1C-bOwdm6_6lx_DxJy0W8hyiw-YPMFzcY/view?usp=sharing";
     return (
 
         <div className="about-content">
             <div className="content">
                 <div className="column left">
-                    <img src={self} alt="self" />
+                    <img className="self" src={self} alt="self" />
                 </div>
                 <div className="column right">
-                    <div>
-
+                    <div className="text">
+                        <p>As a developer, I specialize in creating modular and
+                            scalable front-end architectures.I generate fresh
+                            and unique content for any specific purpose.Since
+                            I respect the time, I always deliver content within
+                            the promised timeframe. I understand and respect the fact,
+                            that there is a story behind every brand , behind every
+                            individual. </p>
                     </div>
                     <div>
                     </div>
                     <div>
-                        <button className="btn" >Download CV </button>
+                        <a href={downloadResume} target="_blank">
+                            <button className="btn" >Download CV </button>
+                        </a>
                     </div>
                 </div>
             </div>
